@@ -1,0 +1,214 @@
+/* 顶部-（任务详情） */
+.h{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #fbba43;
+}
+
+.h span{
+    line-height: 40px;
+}
+
+
+/* 任务图片 */
+.img img{
+    /*width: 100%;
+    background-size: 100% auto; 
+    background-repeat: no-repeat; */
+    -ms-interpolation-mode: bicubic;
+    width: 100%;
+}
+
+/* 任务标题 */
+.titl{
+    width: 100%;
+    height: 40px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    line-height: 35px;
+    position: relative;
+}
+/* 标题文字超过屏幕宽度的60%  其余文字以省略号的形式显示出来  */
+.tit{
+    position: absolute;
+    left: 10px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    width:60%;
+}
+
+/* 任务价钱 数字超过屏幕宽度的20%   其余数字以省略号的形式显示出来 */
+.money {
+    color: red;
+    padding-right: 10px;
+    position: absolute;
+    right:0px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    width:20%;
+}
+
+/* 用户信息 */
+.user {
+    height: 80px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+
+/* 发布者头像 */  
+.user a:first-child,.liuyan a:first-child{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+}
+/* 发布者用户名 */
+.user_name{
+    padding-top: 8px;
+    padding-bottom: 3px;
+    position: relative;
+    left: 75px;
+}
+/* 发布者的综合评价 */
+/* 综合评价 */
+.pingjia {
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size:12px;
+}
+/* 评价2 */
+.pingjia_ {
+    position: relative;
+    left: 85px;
+    top: 5px;
+    font-size:12px;
+}
+
+/* 发布日期 */
+.dat{
+    position: absolute;
+    right:10px;
+}
+
+
+/* 任务详情 */
+.renwu {
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    line-height: 35px;
+}
+/* 任务内容 */
+.renwu_con{
+    width: 100%;
+    height: 120px;
+    padding-top: 20px;
+    background-color: #ffffff;
+}
+
+/* 留言 */
+/* 留言两个字 （数量）*/
+.liuyan {
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    line-height: 35px;
+}
+.liuyan_1{
+    width: 100%;
+    height: 140px;
+    background-color: #ffffff;
+    position: relative;
+}
+.liuyan_2{
+    width: 100%;
+    height: 125px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+/* 留言者用户名 */
+.liuyan_username{
+    position: absolute;
+    left: 65px;
+}
+/* 留言时间 */
+.liuyan_time{
+    color: #f9ac2f;
+    position: absolute;
+    left: 65px;
+    top: 25px;
+}
+/* 留言内容 */
+.liuyan_con{
+    display:block;
+    word-break: break-all;
+    word-wrap: break-word;
+    width:70%;
+    height: 72px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    margin-left: 65px;
+    color: #f9ac2f;
+    border-bottom: #ccc solid 1px;
+}
+
+
+/* 点赞及数量 */
+.good {
+    width: 30px;
+    height: 32px;
+    background: url("../image/good.jpg") no-repeat;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+.good_num{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+/* 底部前去围观按钮 固定定位 */
+.foot{
+    width:100%;
+    height:50px;
+    background:#ffffff;
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index:999;
+}
+
+/* 空标签  消除底部前去围观的底层遮盖 */
+.kong{
+    height: 55px;
+}
+
+
+/* 底部跳转到已下载APP  没下载跳转到下载页面  自动识别苹果？安卓 */
+.dump{
+    width:100%;
+    height:40px;
+    line-height: 35px;
+    text-align: center;
+    background:#fbba43;
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index:999;
+}

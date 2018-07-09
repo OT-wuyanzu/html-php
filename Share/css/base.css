@@ -1,0 +1,51 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,hr{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*font-size: ;*/
+	font-family: "微软雅黑";
+	color: #4a4a4a;
+}
+
+/*去除横向滚动条*/
+html,body {
+	 background-color: #eeeeee;
+	 overflow:hidden;
+	 overflow-y:auto;
+}
+
+a {
+	 text-decoration: none;
+}
+
+a:hover {
+	color: #f10215;
+}
+
+img,input {
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+	outline-style: none;
+}
+
+
+/* 清除浮动 */
+.clearfix:after {
+   content: "";
+   height: 0;
+   line-height: 0;
+   display: block;
+   clear: both;
+   visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.w {
+	 width: 1190px;
+	 margin: 0 auto;
+}
